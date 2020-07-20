@@ -167,7 +167,7 @@ bash bin/get-all-tasks <user email> <user password> <dispatcher address>
 
 ## Comparing results
 
-Filename | md5sum
+Filename for download option 00 | md5sum
 -|-
 LC82150652015174LGN00_alb.nc  | c19e32ccb08080a11fbf4ff0a961a891
 LC82150652015174LGN00_EF.nc | 7fc97b93fd5f00e73cd82edc4e291818
@@ -180,6 +180,18 @@ LC82150652015174LGN00_Rn.nc | b75f223bcc956aee781e7e993f5fafcb
 LC82150652015174LGN00_SAVI.nc | 364b20834ca8640b098669ef0aa726e8
 LC82150652015174LGN00_TS.nc | 9b0d727c42d05f267c226eab1f1b1e0e
 
+Filename for download option 01 | md5sum
+-|-
+LC82150652015174LGN01_alb.nc | de35a57ec3db24ff03fab52cb856ec2a
+LC82150652015174LGN01_EF.nc | 3b683d2cd8e8d079ca011f493ecf9f14
+LC82150652015174LGN01_ET24h.nc | f56119b81d7761c5eccaf9d15a44ea11
+LC82150652015174LGN01_EVI.nc | 9517fd1762bae5837fb202ee2dcfd5a6
+LC82150652015174LGN01_G.nc | 66cd3409bd4b0b931592ea426194be50
+LC82150652015174LGN01_LAI.nc | 1925da7423cbc7edf71ecbee08832cee
+LC82150652015174LGN01_NDVI.nc | 9be300e35ce071d79a9de01ce4f16978
+LC82150652015174LGN01_Rn.nc | 7714341124387ea4f6311a80ee8f916c
+LC82150652015174LGN01_SAVI.nc | 71e3dba4e28844881ce5adff57b06776
+LC82150652015174LGN01_TS.nc | e794e9fcdad5bbf7e2ad2b223a18d7d9
 
 After downloading all the output files, run the command below for each file in the above table and compare the result with the md5sum column
 
