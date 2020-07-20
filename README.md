@@ -71,7 +71,7 @@ let scriptsTags =
     {
       "name": "endtoend-test",
       "docker_tag": "endtoend-test",
-      "docker_repository": "fogbow/inputdownloading"
+      "docker_repository": "fogbow/inputdownloader"
     }
   ],
   "preprocessing":[
