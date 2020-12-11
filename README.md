@@ -1,3 +1,7 @@
+# SAPS Quality Assurance
+
+This repository maintains scripts responsible for tests performed on SAPS.
+
 # End to end test using NOP algorithms
 
 ## Overview
