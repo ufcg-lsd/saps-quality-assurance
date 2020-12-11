@@ -44,7 +44,7 @@ This report described how to test SAPS using fully implemented algorithm (based 
 
 ## Test execution flow
 
-![Test flow](img/end-to-end-test-flow.png)
+![Test flow](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-flow.png?raw=true)
 
 1. User submits a task (new processing) to the Dashboard
 2. Dashboard forwards the processing request to the Dispatcher
@@ -101,25 +101,25 @@ let scriptsTags =
 
 #### 1. Login to the Dashboard
 
-![Login Dashboard](img/end-to-end-test-run-img1.png)
+![Login Dashboard](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-run-img1.png?raw=true)
 
 Access the GUI through the url ```$dashboard_access_ip:$dashboard_access_port``` and connect using valid credentials.
 
 #### 2. Create new processing
 
-![New processing](img/end-to-end-test-run-img2.png)
+![New processing](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-run-img2.png?raw=true)
 
 When connecting successfully, click on `New Processing`, fill in the fields as in the image above and click on `Process`
 
 #### 3. New processing created
 
-![New processing created](img/end-to-end-test-run-img3.png)
+![New processing created](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-run-img3.png?raw=true)
 
 After a few seconds, it will be possible to observe the image above, that is, two new processes have been created and are in the initial state (`Created`), wait for at least half an hour until they are completed.
 
 #### 4. Processing completed
 
-![Processing completed](img/end-to-end-test-run-img4.png)
+![Processing completed](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-run-img4.png?raw=true)
 
 After the two processes are completed, the GUI will be similar to the image above, one with LANDSAT 8 with a successful end state (`Success`) and the other with LANDSAT 7 with a failed end state (`Failure`).
 
@@ -139,13 +139,13 @@ bash bin/submit-task <user email> <user paswword> -7.413 -7.047 -37.314 -36.257 
 
 #### 1. Dashboard data tab
 
-![Data tab](img/end-to-end-test-check-results-img1.png)
+![Data tab](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-check-results-img1.png?raw=true)
 
 In the data tab, fill in the fields as shown in the image above and click on `Search`.
 
 #### 2. Email notification
 
-![Send email](img/end-to-end-test-check-results-img2.png)
+![Send email](https://github.com/ufcg-lsd/saps-quality-assurance/blob/master/img/end-to-end-test-check-results-img2.png?raw=true)
 
 After completing the search, the result shown in the image above will be displayed, check the option with the information of the processing done and click on `Send email`.
 
